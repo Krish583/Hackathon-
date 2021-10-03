@@ -138,6 +138,26 @@ nav{
     align-items: center;
     border-radius: 10px;
 }
+
+.cont {
+    width:600px;
+    display: flex;
+    margin-top:6px;
+    margin-left:500px;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom:15px;
+    border-bottom: 1px solid #57606a;
+    
+}
+.cont a{
+    font-weight: 300;
+    font-size: 15px;
+    justify-content: space-between;
+    text-decoration: none;
+    color:rgb(29, 28, 28);
+
+}
 .main-section{
     display:flex;
 }
