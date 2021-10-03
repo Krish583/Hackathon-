@@ -1,2 +1,2 @@
 # Hackathon
-https://app.netlify.com/sites/reverent-mcnulty-7aeaaf/overview
+https://reverent-mcnulty-7aeaaf.netlify.app/
