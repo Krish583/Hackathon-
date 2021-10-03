@@ -1,0 +1,184 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #efefef;
+    font-family: Arial,sans-serif,Helvetica;
+}
+
+
+nav{
+    height:65px;
+    width:100%;
+    align-items: center;
+    top:0;
+    background: #24292f;
+    padding-left: 10px;
+}
+.nav-left, .nav-right{
+    display: flex;
+}
+
+.git-img{
+    margin-top: 10px;
+    height:50px;
+    width:50px;
+   
+}
+
+
+.nav-left {
+    width:600px;
+    display: flex;
+    margin-top:6px;
+    align-items: center;
+    justify-content: space-between;
+    float:left;
+}
+
+.nav-left input{
+    width:250px;
+    height:30px;
+    border-radius: 8px;
+    border: 0.1px solid  #57606a;
+    margin-right: 1px; 
+    background: transparent;
+}
+
+.nav-left a{
+    font-weight: 300;
+    font-size: 15px;
+    text-decoration: none;
+    color:rgb(226, 219, 219);
+
+}
+
+.nav-right{
+    display:flex;
+    float:right;
+    margin-top: 16px;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    margin-right:50px;
+    
+}
+
+.nav-profile{
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+   margin-left:20px;
+}
+
+.dropdown-rect {
+    margin-top: -10px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    content: "";
+    border-style: solid;
+    color:white;
+    border-width: 6px 6px 0;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    right:-20px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.dropdown-content a:hover {background-color: #868383}
+
+.main-profile{
+    margin-top:40px;
+    margin-right:40px;
+    float:right;
+    width:260px;
+    height:260px;
+    border-radius: 50%;
+}
+
+.btn{
+    
+    margin-right:40px;
+    float:right;
+    margin-top:30px;
+    width:200px;
+    height:25px;
+    align-items: center;
+    border-radius: 10px;
+}
+.main-section{
+    display:flex;
+}
+.left-section{
+   
+    width:450px;
+    height:100vh;
+    align-items:right;
+}
+
+.right-section{
+    align-items: center;
+    display:inline-block;
+    margin-top: 50px;;
+    
+}
+
+.repositories{
+    
+    border: 1px solid #57606a;
+    gap:10px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    height:100px;
+}
+
+.privacy{
+    margin-top:20px;
+    display: flex;
+    gap:20px;
+    }
+
+.btnType{
+    border:1px solid #57606a;
+    padding:4px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.language{
+    margin-top: 15px;
+    font-size: 13px;;
+      
+}
